@@ -1,2 +1,5 @@
-# studios-new-templates
-templates for new things in the studios system
+# studios-templates
+
+Templates for new things in the studios system.
+
+

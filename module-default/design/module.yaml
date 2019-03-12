@@ -1,0 +1,19 @@
+module:
+
+  name: {{ModuleName}}
+
+  types: []
+
+  components: []
+  pages: []
+  files: []
+
+  translations:
+  - name: en
+    file: design/modules/{{ModuleName}}/locales/en.json
+  - name: es
+    file: design/modules/{{ModuleName}}/locales/es.json
+
+  seeds:
+    file: seeds/default.json
+
