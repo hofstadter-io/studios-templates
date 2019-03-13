@@ -1,0 +1,20 @@
+{{#if TypeName}}
+type:
+  name: {{TypeName}}
+{{else if ModuleName}}
+module:
+  name: {{ModuleName}}
+{{else}}
+app:
+  name: {{AppName}}
+{{/if}}
+
+  components:
+    - name: {{ComponentName}}
+
+      content:
+        - "{{BasePath}}/{{ComponentName}}.jsx"
+
+      current-user: false
+
+      data: null
