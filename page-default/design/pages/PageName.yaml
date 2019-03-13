@@ -1,0 +1,27 @@
+{{#if TypeName}}
+type:
+  name: {{TypeName}}
+{{else if ModuleName}}
+module:
+  name: {{ModuleName}}
+{{else}}
+app:
+  name: {{AppName}}
+{{/if}}
+
+  pages:
+    - name: {{PageName}}
+      route: "/..."
+
+
+      style:
+        - "{{BasePath}}/{{PageName}}/style.scss"
+
+      content:
+        - "{{BasePath}}/{{PageName}}/content.html"
+
+      components: []
+
+      current-user: false
+
+      data: null

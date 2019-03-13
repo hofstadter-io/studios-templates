@@ -1,2 +1,30 @@
 type:
   name: {{TypeName}}
+
+  # owned:
+  #   name: author
+  #   type: has-one or has-many
+
+  # visibility:
+  #   enabled: true
+  #   default: false
+  #   public: published
+  #   private: draft
+
+  auth:
+    default: true
+
+  components:
+    default: true
+
+  pages:
+    default: true
+
+  fields:
+  - name: name
+    type: string
+    length: 64
+
+  relations: []
+
+  files: []
