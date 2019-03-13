@@ -15,10 +15,10 @@ app:
 
 
       style:
-        - "{{BasePath}}/{{PageName}}/style.scss"
+        - "{{BasePath}}/pages/{{PageName}}/style.scss"
 
       content:
-        - "{{BasePath}}/{{PageName}}/content.html"
+        - "{{BasePath}}/pages/{{PageName}}/content.html"
 
       components: []
 
