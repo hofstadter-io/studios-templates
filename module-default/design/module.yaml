@@ -15,5 +15,5 @@ module:
     file: design/modules/{{ModuleName}}/locales/es.json
 
   seeds:
-    file: seeds/default.json
+    file: design/modules/{{ModuleName}}/seeds/default.json
 
