@@ -16,4 +16,5 @@ module:
 
   seeds:
     file: design/modules/{{ModuleName}}/seeds/default.json
+    types: []
 
